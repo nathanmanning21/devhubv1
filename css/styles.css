@@ -1,0 +1,746 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+.body {
+    font-family: 'Lato', sans-serif;
+    background-color: #dfdfdf;
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+}
+
+.covidBanner {
+    margin-top: 6em;
+    margin-bottom: -6em;
+    background-color: #6c63ff;
+    display: block;
+}
+
+.covidBanner h1 {
+    color: white;
+    font-size: 1.3em;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    padding-top: 6px;
+}
+
+.covidBannerIndex {
+    margin-top: 4.5em;
+    margin-bottom: -6em;
+    background-color: #6c63ff;
+    display: block;
+}
+
+.covidBannerIndex h1{
+    color: white;
+    font-size: 1.3em;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    padding-top: 6px;
+}
+
+/* Navbar */
+
+#main-header { box-shadow: none !important; }
+
+.navbarwrapper li {
+    margin-left: auto;
+    margin-right: 1px;
+    font-size: 22px;
+    text-align: center;
+    color: black;
+}
+.navbar-default{
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.navbar-nav > li > a:hover {
+    border-bottom: 3px solid #428bca;
+  }
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.navbar-right {
+    margin-top: 1.9em;
+
+}
+
+.navbar-left {
+    margin-top: 1.3em;
+}
+
+.navbarwrapper {
+    box-shadow:  0 0 1em 0 rgba(0,0,0,0.3);
+    height: 7em;
+
+}
+.sign-up {
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    margin-left: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
+.sign-up a {
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    margin-left: 3em;
+}
+
+
+
+.coverImg img {
+    width: 100%;
+    margin-top: 6em;
+}
+
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+.userType {
+    margin-top: 7em;
+}
+
+.userType h1{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.userType p {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.col-md-4 img {
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+
+.col-md-4 button {
+    margin: auto;
+    margin-top: 1.5em;
+    display: flex;
+    text-align: center;
+    border: 3px solid #428bca;
+    background-color: #428bca;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10em;
+    font-family: 'Lato', sans-serif;
+}
+
+.col-md-4 button:hover {
+    background-color: #fff;
+    color: black;
+    transition-duration: 0.2s;
+}
+
+.firstText .col-md-8 {
+    margin-top: 7em;
+    
+}
+
+.firstText .col-md-8 h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.firstText .col-md-8 p {
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+.application-builder .col-md-8 {
+    margin-top: -3em;
+}
+.secondText .col-md-8 a {
+    color: #6c63ff;
+}
+
+.application-builder .col-md-8 h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+.application-builder .col-md-8 p {
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+.secondText {
+    margin-top: 2em;
+}
+
+.secondText a {
+    color:  #428bca;
+    font-weight: 600;
+}
+
+.secondText .col-md-8 a {
+    text-decoration: none;
+}
+
+.secondText .col-md-8 p a:hover{
+    text-decoration: underline;
+}
+
+
+.secondText .col-md-8 h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.secondText .col-md-8 p {
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+.img-stock img {
+    height: 350px;
+    width: 350px;
+    margin-left: 3em;
+    margin-top: 5em;
+}
+
+.allBanner {
+    background-color: #e4e4e4;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 9em;
+}
+
+.footer-width {
+    margin-right: 27em;
+  
+}
+.footer-width .col-md-3 {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 16em;
+}
+.footer-width .col-md-3 a {
+    color: #428bca;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 3em;
+}
+
+.footer-width .col-md-3 a:hover {
+    color: #0000b2;
+}
+
+.footer-width .col-md-3 h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    display: inline;
+
+    padding-bottom: 15px;
+}
+
+.footer-width .col-md-3 li {
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 1em;
+    padding-bottom: 1px;
+}
+
+.img .imgFooter {
+    position: absolute;
+    right: 0%;
+}
+
+.img .footerLogo {
+    margin-top: -0.1em;
+}
+
+.col-md-4 .imgLogo img {
+    display: inline-block;
+   
+}
+
+.col-md-3 .socialMediaIcons {
+    margin-top: 8px;
+}
+
+.col-md-3 .socialMediaIcons img {
+    margin-right: 9px;
+    height:35px;
+    margin-top: 1em;
+}
+
+
+
+.starsImg {
+    float: right;
+    margin-top: -15em;
+}
+
+
+/**************************
+****************************
+****************************
+ LOGIN / REGISTER 
+ ****************************
+****************************
+ */
+
+ .sign-in-modal {
+     font-size: 2.5em;
+     font-family: 'Montserrat';
+     display: inline-block;
+     width: 50%;
+     background-color: #e4e4e4;
+     text-align: center;
+ }
+
+ .register-in-modal {
+     font-size: 1.5em;
+     font-family: 'Montserrat';
+     display: inline-block;
+     float: right;
+     background-color: #e4e4e4;
+     color:  #0000b2;
+     width: 100%;
+     text-align: center;
+ }
+
+ .sign-in-modal  p {
+    
+     border: 2px solid black;
+     border-radius: 6px;
+     background-color: #e4e4e4;
+     color:  #0000b2;
+     margin-top: 0.3em;
+
+ }
+
+.register-in-modal p {
+    padding-top: 15px;
+}
+
+
+img.img-login-header {
+    display: flex;
+    margin: auto;
+    margin-top: 4em;
+    margin-bottom: -1em;
+}
+
+.login-in-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+   
+    margin-left: 11em;
+}
+
+.loginBox {
+    margin-top: 15em;
+  
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    
+    margin-bottom: 10em;
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+.loginBox .col-md-12 h1{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.btn-primary {
+    border-color: none !important;
+    background-color: #5b5b70;
+    width: 60%;
+    font-size: 1.2em;
+}
+
+.btn-primary:hover {
+    background-color: #4c4cc9;
+}
+
+.form-control {
+    width: 60%;
+}
+
+.form-control:focus {
+    border-color: #0000b2;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px rgb(0,0,178);
+}
+
+.enquiryForm:focus {
+    border-color: #0000b2;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px rgb(0,0,178);
+}
+
+.login-form-control {
+    width: 100%;
+}
+
+.form-group label {
+    font-family: 'Montserrat'!important ;
+    font-weight: bold !important;
+}
+
+.registerBox {
+    margin-top: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 26%;
+    overflow: hidden;
+    
+    margin-bottom: -4em;
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+
+    border: 1px solid #0000b2;
+}
+
+.registerBox .col-md-12 h1 {
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-top: 2em;
+    color: #000;
+    margin-bottom: 1em;
+}
+
+.login-in-container .form-group input {
+    width: 50em;
+}
+
+.signInGoogle {
+    width: 15em;
+    background-color: #ccc;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 2.4em;
+}
+
+.signInGoogle a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+   
+}
+
+.signInFacebook {
+    width: 15em;
+    background-color: #ccc;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 2.4em;
+}
+
+.signInFacebook a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.googleLogIn {
+    height: 16px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0.15em;
+}
+
+.facebookLogin {
+    height: 19px;
+    float: left;
+    margin-left: 11px;
+    margin-right: 15px;
+}
+
+.loginHelp {
+    color: #0000b2;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 1em;
+}
+
+/* Recruiter contact */
+
+.recruiterContact .col-md-8 {
+    margin-bottom: 5em;
+}
+
+.container-pricing {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 70%;
+
+}
+
+.pricingBanner {
+overflow: hidden;
+/*background-color: #ccc; */
+background-image: url('../img/p2.jpg');
+background-size:100% 100%;
+}
+
+.pricingBenefits {
+    overflow: hidden;
+    background-color: #e4e4e4;
+}
+
+.pricing .col-md-4 {
+    border: 2px solid black;
+    height: 300px;
+    margin-bottom: 6em;
+    margin-left: -3px;
+    background-color: #0b2d4c;
+    margin-top: 8em;
+    font-family: 'Montserrat';
+}
+
+.pricing .col-md-4 h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.container-pricing h1 {
+    color: #0000b2;
+    font-family: 'Montserrat';
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    font-size: 2.3em;
+    }
+
+.container-pricing .col-md-4 li {
+    list-style: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.container-pricing .col-md-4 p {
+    font-weight: 600;
+    font-family: 'Montserrat';
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+.container-pricing .col-md-4 p:last-child{
+    margin-bottom: 4.5em;
+    margin-top: -0.5em;
+}
+.recruiterContact {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 550;
+}
+
+.recruiterContact .col-md-8 h1{
+    color: #0000b2;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-top: 5em;
+}
+
+.recruiterContact .col-md-4 h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.recruiterContact .col-md-4 {
+    background-color: #0b2d4c;
+}
+
+.recruiterContact .col-md-4 {
+    color: #fff;
+}
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #5b5b70;
+}
+
+.rapidInquiryBtn a {
+    background: #5b5b70;
+    border-radius: 0.15em;
+    box-shadow: 0.1em 0.1em 0.3em 0 rgba(0,0,0,0.3);
+    color: #fff;
+    display: inline-block;
+    font-size: 16.8px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    min-width: 9em;
+    width: 100%;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    text-decoration: none;
+}
+
+.rapidInquiryBtn a:hover {
+    background-color: #4c4cc9;
+}
+
+.enquiryForm {
+    width: 100%;
+    margin-bottom: 0.5em;
+    color: #000;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: block;
+}
+
+.enquiryForm label {
+    color: #fff;
+    font-weight: 400;
+}
+
+.col-md-8 .enquiryForm {
+    width: 88%;
+}
+
+.priceBg {
+    background-color: red;
+}
+
+
+.pricing h1{
+    color: white;
+}
+/********************************************/
+
+
+.backgroundSetting .col-md-4 {
+    border: 3px solid black;
+    background-color: #0b2d4c;
+    height: 350px;
+    margin-left: -3px;
+}
+
+.backgroundSetting .col-md-4 h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    color: #fff;
+}
+
+.backgroundSetting .col-md-4 li {
+    text-align: center;
+    color: white;
+}
+
+.footer-width {
+  
+}
+
+
+/********************************************/
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding-left: 7px;
+}
+
+
+/********************************************
+Application builder
+////////*/
+
+.application-builder-info {
+    overflow: hidden;
+    margin-top: 10em;
+}
+
+.application-builder-info .img-responsive img {
+    height: 23.6em;
+    margin-left: -11em;
+}
+
+.application-builder-info .col-md-9 p {
+    font-size: 1.3em;
+    font-family: 'Lato', sans-serif;
+}
+
+.application-builder-info .col-md-9 h1 {
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+
+.application-builder-info .col-md-9 button {
+    width: 27em;
+    margin-top:1em;
+}
+
+.application-builder-tips-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.application-builder-tips {
+    border: 3px solid #000;
+    height: 10em;
+}

@@ -1,0 +1,378 @@
+/*
+Theme Name: Themes
+Theme URI: Your Theme's URI
+Description: A brief description.
+Version: 1.0
+Author: You
+Author URI: https://devhubjobs.co.uk/
+*/
+
+.body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+}
+
+/* Navbar */
+
+#main-header { box-shadow: none !important; }
+
+.navbarwrapper li {
+    margin-left: auto;
+    margin-right: 1px;
+    font-size: 22px;
+    text-align: center;
+    color: black;
+}
+.navbar-default{
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.navbar-nav > li > a:hover {
+    border-bottom: 3px solid #0000b2;
+  }
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.navbar-right {
+    margin-top: 1.4em;
+}
+
+.navbar-left {
+    margin-top: 1.3em;
+}
+
+
+.sign-up {
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    margin-left: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
+.sign-up a {
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    margin-left: 3em;
+}
+
+
+
+.coverImg img {
+    margin-top: 7em;
+    width: 100%;
+    z-index: 0;
+}
+
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+.userType {
+    margin-top: 7em;
+}
+
+.userType h1{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.userType p {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.col-md-4 img {
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+
+.col-md-4 button {
+    margin: auto;
+    margin-top: 1.5em;
+    display: flex;
+    text-align: center;
+    border: 3px solid #0000b2;
+    background-color: #0000b2;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10em;
+    font-family: 'Lato', sans-serif;
+}
+
+.col-md-4 button:hover {
+    background-color: #fff;
+    color: black;
+    transition-duration: 0.2s;
+}
+
+.firstText .col-md-8 h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.firstText .col-md-8 p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+.application-builder .col-md-8 {
+    margin-top: -3em;
+}
+
+.application-builder .col-md-8 h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
+}
+
+.application-builder .col-md-8 p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+.secondText {
+    margin-top: 2em;
+}
+
+.secondText a {
+    color:  #0000b2;
+    font-weight: 600;
+}
+
+.secondText .col-md-8 h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
+}
+
+.secondText .col-md-8 p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+.img-stock img {
+    height: 350px;
+    width: 350px;
+    margin-left: 3em;
+}
+
+.allBanner {
+    background-color: #f8f8f8;
+    margin-top: 8em;
+    width: 100%;
+}
+
+.allBannerSecond { 
+    background-color: #fff;
+}
+
+.footer-width {
+    margin-right: 27em;
+}
+.footer-width .col-md-3 {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.footer-width .col-md-3 a {
+    color: #0000b2;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 3em;
+}
+
+.footer-width .col-md-3 h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    display: inline;
+
+    padding-bottom: 15px;
+}
+
+.footer-width .col-md-3 li {
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 1em;
+    padding-bottom: 1px;
+}
+
+.img .imgFooter {
+    position: absolute;
+    right: 0%;
+}
+
+.img .footerLogo {
+    margin-top: -0.1em;
+}
+
+.col-md-4 .imgLogo img {
+    display: inline-block;
+   
+}
+
+.col-md-3 .socialMediaIcons {
+    margin-top: 8px;
+}
+
+.col-md-3 .socialMediaIcons img {
+    margin-right: 9px;
+    height:52px
+}
+
+
+
+.starsImg {
+    float: right;
+    margin-top: 3em;
+}
+
+.loginBox {
+    margin-top: 15em;
+  
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    
+    margin-bottom: 10em;
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+.loginBox .col-md-12 h1{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.btn-primary {
+    border-color: none;
+    background-color: #0000b2;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+.btn-primary:hover {
+    background-color: #4c4cc9;
+}
+
+
+.registerBox {
+    margin-top: 15em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    
+    margin-bottom: 10em;
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+.registerBox .col-md-12 h1{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.signInGoogle {
+    width: 100%;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 2.4em;
+}
+
+.signInGoogle a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+   
+}
+
+.signInFacebook {
+    width: 100%;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 2.4em;
+}
+
+.signInFacebook a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.googleLogIn {
+    height: 16px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0.15em;
+}
+
+.facebookLogin {
+    height: 19px;
+    float: left;
+    margin-left: 11px;
+    margin-right: 15px;
+}
+
+.loginHelp {
+    color: #0000b2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 550;
+}
