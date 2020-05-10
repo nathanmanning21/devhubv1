@@ -14,13 +14,13 @@
 .covidBanner {
     margin-top: 6em;
     margin-bottom: -6em;
-    background-color: #6c63ff;
+    background-color: #5b5b70;
     display: block;
 }
 
 .covidBanner h1 {
     color: white;
-    font-size: 1.3em;
+    font-size: 12px;
     font-weight: 700;
     font-family: 'Montserrat';
     padding-top: 6px;
@@ -29,13 +29,13 @@
 .covidBannerIndex {
     margin-top: 4.5em;
     margin-bottom: -6em;
-    background-color: #6c63ff;
+    background-color: #5b5b70;
     display: block;
 }
 
 .covidBannerIndex h1{
     color: white;
-    font-size: 1.3em;
+    font-size: 12px;
     font-weight: 700;
     font-family: 'Montserrat';
     padding-top: 6px;
@@ -438,14 +438,13 @@ img.img-login-header {
     margin-top: 10em;
     margin-left: auto;
     margin-right: auto;
-    width: 26%;
+    width: 42%;
     overflow: hidden;
     
     margin-bottom: -4em;
     background-color: #fff;
     font-family: 'Lato', sans-serif;
-
-    border: 1px solid #0000b2;
+    box-shadow: 0 0 2em 0em rgba(0,0,0,0.2);
 }
 
 .registerBox .col-md-12 h1 {
@@ -544,13 +543,14 @@ background-size:100% 100%;
 }
 
 .pricing .col-md-4 {
-    border: 2px solid black;
+    border: 1px solid black;
     height: 300px;
     margin-bottom: 6em;
     margin-left: -3px;
-    background-color: #0b2d4c;
-    margin-top: 8em;
+    background-color: #5b5b70;
+    margin-top: 4em;
     font-family: 'Montserrat';
+    box-shadow: 0 0 2em 0em rgba(0,0,0,0.2);
 }
 
 .pricing .col-md-4 h1{

@@ -79,18 +79,34 @@
                 <div class="col-md-12">
 
                     <img src="img/logo2.png" class="img-login-header" >
-                    <h1>Sign In</h1>
+                    <h1>Register</h1>
                     <form action="#" method="post">
 
                         <div class="form-group">
                             <label for ="emailA">Email Address</label>
-                            <input type="emailAddress" class="form-control" name="emailAdress" placeholder="Email Address" style=" width: 100%">
+                            <input type="emailAddress" class="form-control" name="emailAdress" placeholder="Email address" required style=" width: 100%">
                         </div>
-            
+                        
                         <div class="form-group">
-                            <label for ="emailA">Password</label>
-                            <input type="password" class="form-control" name="pass" placeholder="Password" required style=" width: 100%">
+                            <label for ="password">Password</label>
+                            <input type="emailAddress" class="form-control" name="password"placeholder="Password" required style=" width: 100%">
                         </div>
+
+                        <div class="form-group">
+                            <label for ="password">Re-Type Password</label>
+                            <input type="emailAddress" class="form-control" name="password" placeholder="Re-enter password" required style=" width: 100%">
+                        </div>
+
+                        <div class="form-group">
+                            <label for ="password">How did you hear about us?</label>
+                            <select id="cars" name="cars" style="width: 8em;"> 
+                                <option value="LinkedIn">LinkedIn</option>
+                                <option value="facebook">Facebook</option>
+                                <option value="browser">Browser Search</option>
+                              </select>
+                        </div>
+
+                        <input type="file" id="myFile" name="filename">
 
                         <button type="submit" name="submit" class="btn btn-primary" style="width: 100%;">Sign In</button>
 
@@ -107,7 +123,7 @@
 
                     <div class="loginHelp">
                         <p style="margin-top: 2em; margin-bottom: 0.5em;">Forgot Password?</p>
-                        <p style="margin-top: 0.5em; margin-bottom: 2em; color: #6c63ff;"><a href="register.html">Register here</p></a>
+                        <p style="margin-top: 0.5em; margin-bottom: 2em; color: #6c63ff;"><a href="login.html">Sign in</p></a>
 
                     </div>
 
